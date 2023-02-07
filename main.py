@@ -4,8 +4,8 @@ from plyer import notification
 
 def main():
     first_time_running = True
-    tme = datetime.now().strftime("%H:%M:%S %d-%m-%y")
     while True:
+        tme = datetime.now().strftime("%H:%M:%S %d-%m-%y")
         if first_time_running == True:
             print("First time: {}".format(tme))
             first_time_running = False
